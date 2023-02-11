@@ -13,12 +13,12 @@ module.exports = {
   EXTENDED_TOKEN_VALUE_OFFSET: 1000000,
   TOKEN_TYPE_SET_TIME: 1,
   TOKEN_TYPE_ADD_TIME: 2,
-  STARTING_CODE: 123456789,
-  EXTENDED_STARTING_CODE: 123456789123,
+  STARTING_CODE: 184148853,  // ******
+  EXTENDED_STARTING_CODE: 184148853,
   STARTING_COUNT: 1,
   MAX_TOKEN_JUMP: 64,
   MAX_TOKEN_JUMP_COUNTER_SYNC: 100,
   MAX_UNUSED_OLDER_TOKENS: 8 * 2,
-  KEY: siphash.string16_to_key('This is the key!'), // <--------- you can replace 'This is the key'
-  TIME_DIVIDER: 1,
+  KEY: '26DC90317019CC897EA4B59B1DF5CBD1',     // <--------- you can replace 'This is the key' // ***
+  TIME_DIVIDER: 1,  // ****
 };

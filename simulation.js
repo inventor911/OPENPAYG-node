@@ -15,16 +15,18 @@ const server = new Server(STARTING_CODE, KEY, STARTING_COUNT, TIME_DIVIDER);
 const numTokens = process.argv[2] || 1;
 
 const VALUE_TO_ENCODE = 1;
-/**
+
 for (let i = 0; i < numTokens; i++) {
-  console.log('==================');
+  console.log('========Generating Token==========');
   const token = server.generateTokenForValue(VALUE_TO_ENCODE); // defaults to ADD_TIME token
   console.log(token);
+  console.log('========Token Generated==========');
 }
 
-*/
+
 
 // 12 DIGIT TOKENS
+/**
 const extendedServer = new Server(EXTENDED_STARTING_CODE, KEY, STARTING_COUNT, TIME_DIVIDER);
 
 for (let i = 0; i < numTokens; i++) {
@@ -32,3 +34,4 @@ for (let i = 0; i < numTokens; i++) {
   const token = extendedServer.generateExtendedTokenForValue(VALUE_TO_ENCODE);
   console.log(token);
 }
+*/
